@@ -1,0 +1,58 @@
+.wrapper {
+	width: 80%;
+	min-width: 900px;
+	margin: 10px auto;
+	border: 1px solid lightgrey;
+	padding: 0 20px 20px;
+}
+.title {
+	width: 80%;
+	text-align: center;
+}
+.fieldsInput, #results {
+	width: 90%;
+	margin: 0 auto;
+}
+.fieldsInput__part1, .fieldsInput__part2 {
+	display: inline-block;
+	text-align: center;
+}
+.fieldsInput__part1 {
+	width: 80%;
+	position: relative;
+	text-align: center;
+}
+.fieldsInput__part1 input {
+	width: 32%;
+}
+.fieldsInput__part1 input:first-child {
+	float: left;
+}
+.fieldsInput__part1 input:last-child {
+	float: right;
+}
+.fieldsInput__part2 {
+	width: 19%;
+}
+#addCookie {
+	padding: 2px 22px;
+}
+#results {
+	margin-top: 20px;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+td {
+	width: 40%;
+	border: 1px solid black;
+}
+tr td:last-child {
+	border: none;
+	width: 20%;
+	text-align: center;
+}
+.del {
+	padding: 2px 15px;
+}
